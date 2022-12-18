@@ -97,6 +97,7 @@ $('document').ready(function(){
 			loopSix();
 		});
 	}
+
 	function loopSeven() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
@@ -104,6 +105,7 @@ $('document').ready(function(){
 			loopSeven();
 		});
 	}
+
 	function loopEight() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
@@ -118,6 +120,7 @@ $('document').ready(function(){
 			loopNine();
 		});
 	}
+
 	function loopTen() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
@@ -145,6 +148,7 @@ $('document').ready(function(){
 		loopEight();
 		loopNine();
 		loopTen();
+
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
