@@ -108,21 +108,21 @@ $('document').ready(function(){
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
 		$('#b8').animate({left:randleft,bottom:randtop},10000,function(){
-			loopSeven();
+			loopEight();
 		});
 	}
 	function loopNine() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
 		$('#b9').animate({left:randleft,bottom:randtop},10000,function(){
-			loopSeven();
+			loopNine();
 		});
 	}
 	function loopTen() {
 		var randleft = 1000*Math.random();
 		var randtop = 500*Math.random();
 		$('#b10').animate({left:randleft,bottom:randtop},10000,function(){
-			loopSeven();
+			loopTen();
 		});
 	}
 
